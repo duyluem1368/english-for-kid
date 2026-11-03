@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff8ed" />
+  <title>Brighty — Học tiếng Anh thật vui!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar"><span class="spark">✦</span> Mỗi ngày 10 phút — bé nói tiếng Anh tự tin hơn! <span class="top-link">Dành cho ba mẹ ↗</span></div>
+  <header class="nav wrap">
+    <a class="brand" href="#top"><span class="brand-mark">B</span><span>brighty<span class="dot">.</span></span></a>
+    <nav><a class="active" href="#learn">Học vui</a><a href="#games">Trò chơi</a><a href="#journey">Hành trình</a></nav>
+    <div class="nav-actions"><button class="icon-btn" aria-label="Đổi giao diện">☼</button><button class="parent-btn">Khu của ba mẹ <span>↗</span></button><button class="menu-btn" aria-label="Mở menu">☰</button></div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span>★</span> Học mà chơi • Chơi mà giỏi</div>
+        <h1>Tiếng Anh<br><em>thật là vui!</em></h1>
+        <p class="hero-lead">Khám phá thế giới tiếng Anh qua những câu chuyện, trò chơi và thử thách siêu đáng yêu dành riêng cho các bạn nhỏ.</p>
+        <div class="hero-cta"><button class="primary-btn" id="startBtn">Bắt đầu học <span>→</span></button><button class="play-btn" id="howBtn"><span class="play-icon">▶</span> Xem cách chơi</button></div>
+        <div class="trust"><div class="avatar-stack"><i>🧒</i><i>👧</i><i>🧑</i></div><span><strong>12.000+</strong> bạn nhỏ đang học cùng Brighty</span></div>
+      </div>
+      <div class="hero-art" aria-label="Brighty mascot illustration">
+        <div class="sun"></div><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <div class="hill hill-back"></div><div class="hill hill-front"></div>
+        <div class="mascot"><div class="ear left"></div><div class="ear right"></div><div class="face"><span class="eye e1"></span><span class="eye e2"></span><span class="cheek c1"></span><span class="cheek c2"></span><span class="mouth">⌣</span></div><div class="body"><span class="book">ABC</span></div><div class="arm a1">✦</div><div class="arm a2">✦</div></div>
+        <div class="float-card card-vocab"><span>🌈</span><b>Rainbow</b><small>/ˈreɪnboʊ/</small></div><div class="float-card card-star"><strong>+10</strong><span>⭐</span></div><div class="float-card card-listen"><span>🔊</span><b>Listen!</b></div>
+      </div>
+    </section>
+
+    <section class="learning wrap" id="learn"><div class="section-heading"><div><span class="eyebrow coral">Lộ trình của bé</span><h2>Mỗi ngày một <em>chút giỏi hơn</em></h2></div><a class="see-all" href="#journey">Xem hành trình →</a></div><div class="path-grid"><article class="path-card green"><div class="card-icon">🎧</div><div><span class="tag">01 • NGHE</span><h3>Listen &amp; sing</h3><p>Nghe và hát theo những bài hát tiếng Anh vui nhộn.</p><button class="mini-btn">Học ngay <span>→</span></button></div><div class="blob">♫</div></article><article class="path-card orange"><div class="card-icon">🗣️</div><div><span class="tag">02 • NÓI</span><h3>Speak up!</h3><p>Luyện nói từng từ, từng câu cùng bạn Brighty.</p><button class="mini-btn">Học ngay <span>→</span></button></div><div class="blob">Aa</div></article><article class="path-card purple"><div class="card-icon">🧩</div><div><span class="tag">03 • TỪ VỰNG</span><h3>Word explorer</h3><p>Mở khóa những từ mới qua trò chơi bất ngờ.</p><button class="mini-btn">Học ngay <span>→</span></button></div><div class="blob">ABC</div></article></div></section>
+
+    <section class="game-zone" id="games"><div class="wrap game-inner"><div class="game-copy"><span class="eyebrow white">Góc chơi hôm nay</span><h2>Săn từ vựng<br><em>cùng Brighty!</em></h2><p>Chọn đúng hình ảnh nghe được. Bé sẽ nhận sao và mở khóa huy hiệu mới!</p><button class="yellow-btn" id="gameBtn">Chơi ngay <span>→</span></button></div><div class="game-board"><div class="board-top"><span>⭐ 120 sao</span><span class="progress">● ● ● ○ ○</span></div><div class="question"><span class="sound">🔊</span><strong>Which one is a <em>cat</em>?</strong></div><div class="choices"><button data-answer="wrong">🐶<small>dog</small></button><button data-answer="correct">🐱<small>cat</small></button><button data-answer="wrong">🐰<small>rabbit</small></button></div><div class="feedback" id="feedback">Chọn một đáp án nhé!</div></div></div></section>
+
+    <section class="journey wrap" id="journey"><div class="journey-copy"><span class="eyebrow purple-text">Hành trình của bé</span><h2>Thu thập sao,<br><em>mở khóa thế giới!</em></h2><p>Mỗi bài học hoàn thành là một bước tiến nhỏ. Cùng bé xây dựng thói quen học tiếng Anh vui vẻ mỗi ngày.</p><div class="stats"><div><strong>7</strong><span>ngày liên tiếp</span></div><div><strong>42</strong><span>bài đã học</span></div><div><strong>18</strong><span>huy hiệu</span></div></div></div><div class="map-card"><div class="map-label">🌟 VƯỜN SAO CỦA MINH</div><div class="map-line"></div><div class="map-nodes"><span class="done">✓</span><span class="done">✓</span><span class="current">★</span><span>✦</span><span>✦</span></div><div class="map-hills">🌳　🌼　🏡　🌈</div><div class="map-character">🧒</div></div></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#top"><span class="brand-mark">B</span><span>brighty<span class="dot">.</span></span></a><span>Học vui mỗi ngày, lớn khôn từng chút.</span><span>© 2025 Brighty</span></footer>
+  <div class="modal" id="modal"><div class="modal-box"><button class="close" id="closeModal">×</button><div class="modal-emoji">🎬</div><h3>Brighty hoạt động thế nào?</h3><p>Bé học qua 3 bước: nghe thật vui, nói thật to và chơi để ghi nhớ. Mỗi ngày chỉ cần 10 phút!</p><button class="primary-btn" id="modalStart">Thử ngay <span>→</span></button></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
